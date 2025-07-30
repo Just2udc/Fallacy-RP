@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fallacy:item/copper_coin_stack"
+    "model": "fallacy:item/coins/copper_coin_stack"
   }
 }

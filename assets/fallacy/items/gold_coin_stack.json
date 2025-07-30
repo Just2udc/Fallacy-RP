@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fallacy:item/gold_coin_stack"
+    "model": "fallacy:item/coins/gold_coin_stack"
   }
 }
