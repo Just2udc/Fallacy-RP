@@ -2,72 +2,76 @@
   "model": {
     "type": "minecraft:range_dispatch",
     "property": "minecraft:count",
-    "scale": 1,
+    "scale": 64,
     "entries": [
       {
-        "threshold": 1,
+        "threshold": 0,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/copper/coin"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 2,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/copper/coin_2"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 3,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/copper/coin_3"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 4,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/copper/coin_4"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 5,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/copper/coin_5"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 6,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/copper/coin_6"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 7,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/copper/coin_7"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 8,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/copper/coin_8"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 9,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/copper/coin_9"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "fallacy:item/coins/copper/coin"
+    }
   },
   "hand_animation_on_swap": true
 }

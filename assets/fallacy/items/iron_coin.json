@@ -2,7 +2,7 @@
   "model": {
     "type": "minecraft:range_dispatch",
     "property": "minecraft:count",
-    "scale": 1,
+    "scale": 64,
     "entries": [
       {
         "threshold": 1,
@@ -12,62 +12,66 @@
         }
       },
       {
-        "threshold": 1,
+        "threshold": 2,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/iron/coin_2"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 3,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/iron/coin_3"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 4,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/iron/coin_4"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 5,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/iron/coin_5"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 6,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/iron/coin_6"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 7,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/iron/coin_7"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 8,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/iron/coin_8"
         }
       },
       {
-        "threshold": 1,
+        "threshold": 9,
         "model": {
           "type": "minecraft:model",
           "model": "fallacy:item/coins/iron/coin_9"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "fallacy:item/coins/iron/coin"
+    }
   },
   "hand_animation_on_swap": true
 }
